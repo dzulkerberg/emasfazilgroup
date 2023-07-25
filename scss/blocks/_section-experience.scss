@@ -1,0 +1,32 @@
+.section-experience{
+    background-color: $color-primary;
+    .experience-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width:112rem;
+        min-height: 68.6rem;
+        background: url(../../images/experience-bg.png);
+        background-size: cover;
+        .experience-content{
+            text-align: center;
+            color: $color-light;
+            padding: 2rem 10rem;
+            img{max-width: 52.4rem; display: block;text-align: center;margin-left: auto;margin-right: auto; margin-bottom: 4.6rem;}
+            h4{
+                font-size: 1.6rem;
+                font-family: $font-inter;
+                font-weight: 800;
+                margin-bottom: 2.5rem;
+            }
+            h2{
+                margin-bottom: 3.2rem;
+            }
+            p{
+                font-size: 2.4rem;
+                margin-bottom: 5.4rem;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.section-gold-price{
+    padding: 9rem 0;
+    background-color: $color-primary;
+    .heading{
+        margin-bottom: 12.8rem;
+        h2{margin-bottom: 3rem;}
+    }
+    .prices{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .price-block{
+            background-color: $color-light;
+            padding: 3rem;
+            border-radius: 8px;
+            width: 46.2rem;
+            margin-bottom: 12.2rem;
+            p{
+                font-size: 3.2rem;
+            }
+            .name{
+                padding: 0 5.5rem;
+                h2{letter-spacing: -0.3rem;}
+            }
+            .price{
+                padding: 3rem 5.5rem;
+                background-color: #D9D9D9;
+                border-radius: 8px;
+                p{
+                    font-family: $font-kaisei;
+                    font-size: 6.4rem;
+                    font-weight: 700;
+                    text-decoration: underline;
+                    text-underline-offset: 1.2rem;
+                }
+            }
+        }
+    }
+}

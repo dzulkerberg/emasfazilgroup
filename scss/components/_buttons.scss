@@ -1,0 +1,26 @@
+.btn{
+    font-size: 2rem;
+    font-family: $font-montserrat;
+    padding: 0.4rem 6rem;
+    border-radius: 0;
+    border: 2px solid $color-primary;
+    color: $color-dark;
+    font-weight: 700;
+    &:hover{
+        background-color: $color-primary;
+    }
+    &.btn-primary{
+        background-color: $color-primary;
+        &:hover{
+             border: 2px solid $color-primary;
+        }
+    }
+    &.btn-outline-light{
+        border: 2px solid $color-light;
+        color: $color-light;
+        &:hover{
+            background-color: $color-light;
+            color: $color-primary ;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.carousel{
+    &-indicators{
+        justify-content: flex-end;
+        bottom: 2.5rem;
+        list-style: none;
+        @media screen and (max-width: 767px) {
+           justify-content: center;
+         }
+        li{
+            width: 2rem !important;
+            height: 2rem !important;
+            background-color: #D9D9D9;
+            border-radius: 50%;
+            
+            &:not(:last-child){
+                margin-right: 1.3rem;
+            }
+            &.active{
+                background-color: $color-dark;
+            }
+        }
+    }
+    img.carousel-img{
+      @media screen and (max-width:767px) {
+        min-height: 39rem;
+        object-fit: cover;
+      }
+    }
+    &-caption{
+        max-width: 57rem;
+        text-align: left;
+        bottom: 9rem;
+        @media screen and (max-width: 767px) {
+            left: 5%;
+         }
+    }
+    h5{
+        font-size: 3.2rem;
+        font-weight: 700;
+        font-family: $font-kaisei;
+        margin-bottom: 1.5rem;
+    }
+    p{
+        font-size: 1.7rem;
+    }
+}

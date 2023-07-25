@@ -1,0 +1,56 @@
+.section-qualities{
+    padding: 6rem 0;
+    .heading{
+        margin-bottom: 7.6rem;
+    }
+    .quality-block{
+        text-align: center;
+        padding: 2.5rem;
+        .icon{
+            width: 12.8rem;
+            height: 12.8rem;
+            margin: 0 auto 2.2rem auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 100%;
+            }
+        }
+        .title{
+            font-weight: 700;
+            font-family: $font-kaisei;
+            margin-bottom: 1.6rem;
+            letter-spacing: -2px;
+            font-size: 24px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    hr{
+        border: 0;
+        border-bottom: 2px solid $color-primary;
+        margin-top: 12.4rem;
+        margin-bottom: 6rem;
+    }
+    .status-block{
+        max-width: 140px;
+        margin: 0 auto;
+        @media screen and (max-width:767px) {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .count{
+            font-family: $font-kaisei;
+            color: $color-primary;
+            font-weight: 700;
+            font-size: 64px;
+            letter-spacing: -2px;
+        }
+        p{
+            font-size: 14px;
+            font-weight:400;
+        }
+    }
+}

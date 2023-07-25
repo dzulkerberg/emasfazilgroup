@@ -1,0 +1,60 @@
+.input-group{
+    position: relative;
+    .form-control{
+        font-size: 2rem;
+        border: 0;
+        border-radius: 0;
+        border-bottom: 1px solid $color-primary;
+        padding-left:0 ;
+        padding-right: 3rem;
+        &::placeholder{
+            color: #D9D9D9;
+        }
+    }
+    .input-group-text{
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0;
+    }
+}
+
+.custom-input{
+    width: 20rem;
+    border: 1px solid $color-primary;
+    display: flex;
+    button{
+        border: 0;
+        background-color: transparent;
+        padding: 1rem;
+        font-size: 1.6rem;
+        color: $color-primary;
+        width: 4rem;
+    }
+    input{
+        width: 12rem;
+        background-color: transparent;
+        border: 0;
+        outline: none;
+        border-left: 1px solid $color-primary;
+        border-right: 1px solid $color-primary;
+        text-align: center;
+    }
+}
+
+.form-select{
+    font-size: 1.6rem;
+    height: 4rem;
+    border: 1px solid $color-primary !important;
+    border-radius: 0;
+    background-color: transparent;
+    outline: none !important;
+    box-shadow: none !important;
+    --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23F4A202' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
+    background-image: var(--bs-form-select-bg-img),var(--bs-form-select-bg-icon,none) !important    ;
+    option{
+        background-color: #D9D9D9;
+    }
+    option:hover {
+        background-color: #F4A202; /* Change this to your desired hover color */
+      }
+}
